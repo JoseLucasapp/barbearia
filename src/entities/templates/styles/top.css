@@ -1,0 +1,78 @@
+.top-main {
+    display: flex;
+    background-color: white;
+    height: 10vw;
+    text-align: center;
+    align-items: center;
+    margin-top: 1%;
+    color: white;
+}
+
+.logo-top {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-top img {
+    width: 100%;
+    margin-left: 5%;
+    height: 20vw;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+.name-top {
+    width: 28.5%;
+    margin-left: 1.5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: black;
+}
+
+.name-top p {
+    font-size: 65px;
+    font-family: Bernier;
+}
+
+@font-face {
+    font-family: Bernier;
+    src: url('../../../../public/BERNIER™\ Regular.ttf');
+}
+
+.options-top {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.options-top-option {
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.options-top-option:hover {
+    background-color: white;
+    color: black;
+}
+
+#instagram {
+    background-color: white;
+}
