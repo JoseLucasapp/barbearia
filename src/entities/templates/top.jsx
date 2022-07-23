@@ -1,6 +1,8 @@
 import React from "react";
 import './styles/top.css'
 
+import { HashLink as Link } from "react-router-hash-link";
+
 export const TopPage = () => {
     return (
         <div className="top-main">
@@ -11,11 +13,13 @@ export const TopPage = () => {
                 <p>JL Barber</p>
             </div>
             <div className="options-top">
-                <div className="options-top-option">ESPAÇO</div>
+                <Link className="options-top-option" to='#place' smooth>
+                    ESPAÇO
+                </Link>
                 <div className="options-top-option">SERVIÇOS</div>
                 <div className="options-top-option">CONTATO</div>
                 <div className="options-top-option" id="instagram">
-                    <img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" alt="" />
+                    <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="" />
                 </div>
             </div>
         </div>

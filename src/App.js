@@ -1,11 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Home } from './entities/home';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Home />
+      </div>
+    </BrowserRouter>
   );
 }
 

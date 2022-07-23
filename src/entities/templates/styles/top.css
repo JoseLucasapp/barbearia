@@ -1,7 +1,8 @@
 .top-main {
     display: flex;
     background-color: white;
-    height: 10vw;
+    width: 100vw;
+    height: 7vw;
     text-align: center;
     align-items: center;
     margin-top: 1%;
@@ -14,26 +15,30 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 1em black;
 }
 
 .logo-top img {
+    z-index: 10;
     width: 100%;
     margin-left: 5%;
-    height: 20vw;
+    height: 18vw;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     cursor: pointer;
+    box-shadow: 0 0 1em black;
 }
 
 .name-top {
-    width: 28.5%;
-    margin-left: 1.5%;
+    width: 39.5%;
+    margin-left: 0.5%;
     height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
     background-color: black;
+    box-shadow: 0 0 1em black;
 }
 
 .name-top p {
@@ -41,31 +46,31 @@
     font-family: Bernier;
 }
 
-@font-face {
-    font-family: Bernier;
-    src: url('../../../../public/BERNIER™\ Regular.ttf');
-}
-
 .options-top {
-    width: 50%;
+    background-color: black;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: black;
+    box-shadow: 0 0 1em black;
+    text-decoration: none;
 }
 
 .options-top-option {
-    width: 25%;
+    width: 30%;
     align-items: center;
     text-align: center;
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: bold;
     cursor: pointer;
     height: 100%;
+    text-decoration: none;
+    color: white;
 }
 
 .options-top-option:hover {
@@ -74,5 +79,113 @@
 }
 
 #instagram {
-    background-color: white;
+    width: 10%;
+}
+
+@media (max-width: 1000px) {
+    .logo-top {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .top-main {
+        width: 100vw;
+        height: 8vh;
+        background-color: black;
+    }
+
+    .options-top {
+        width: 50%;
+    }
+
+    .options-top-option {
+        width: 35%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 100%;
+    }
+
+    #instagram img {
+        width: 100%;
+        border-color: transparent;
+    }
+
+    #instagram {
+        width: 10%;
+        border-color: transparent;
+    }
+
+    .name-top {
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        background-color: black;
+    }
+
+    .name-top p {
+        font-size: 50px;
+        font-family: Bernier;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-top {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .top-main {
+        width: 100vw;
+        height: 10vh;
+        background-color: black;
+    }
+
+    .options-top {
+        width: 60%;
+    }
+
+    .options-top-option {
+        width: 30%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 100%;
+    }
+
+    #instagram img {
+        width: 100%;
+        border-color: transparent;
+    }
+
+    #instagram {
+        width: 10%;
+        border-color: transparent;
+    }
+
+    .name-top {
+        width: 40%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        background-color: black;
+    }
+
+    .name-top p {
+        font-size: 30px;
+        font-family: Bernier;
+    }
 }
