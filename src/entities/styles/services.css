@@ -1,0 +1,46 @@
+.services-main {
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.services-text p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services-text hr {
+    height: 5px;
+    border-color: transparent;
+    background-color: black;
+    width: 50%;
+    margin-top: -1vw;
+    border-radius: 10px;
+}
+
+.services-posters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 32vw;
+    width: 70%;
+}
+
+.services-posters img {
+    width: 47%;
+    height: 30vw;
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+}

@@ -1,13 +1,15 @@
 import React from "react";
-import { Place } from "./templates/place";
+import { Place } from "./place";
 import { TopPage } from "./templates/top";
 import './styles/home.css'
+import { Services } from "./services";
 
 export const Home = () => {
     return (
-        <div>
+        <div className="home-main">
             <TopPage />
             <Place />
+            <Services />
         </div>
     )
 }

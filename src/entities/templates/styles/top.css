@@ -1,12 +1,13 @@
 .top-main {
     display: flex;
-    background-color: white;
+    background-color: transparent;
     width: 100vw;
     height: 7vw;
     text-align: center;
     align-items: center;
     margin-top: 1%;
     color: white;
+    position: fixed;
 }
 
 .logo-top {

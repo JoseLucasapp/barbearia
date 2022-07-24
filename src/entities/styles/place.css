@@ -6,12 +6,13 @@
 .place-details {
     width: 90vw;
     margin-left: 5vw;
-    height: 30vw;
+    height: 33vw;
     display: flex;
     flex-direction: row;
     background-color: black;
-    margin-top: 3vw;
+    margin-top: 12vw;
     border-radius: 15px;
+    box-shadow: 0 0 1em black;
 }
 
 .place-image {
@@ -42,4 +43,21 @@
 .place-text p,
 h1 {
     width: 80%;
+}
+
+.place-photos {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vw;
+}
+
+.place-photos img {
+    width: 21%;
+    height: 17vw;
+    margin-left: 1%;
+    border-radius: 15px;
 }

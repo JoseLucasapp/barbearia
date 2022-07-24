@@ -16,7 +16,9 @@ export const TopPage = () => {
                 <Link className="options-top-option" to='#place' smooth>
                     ESPAÇO
                 </Link>
-                <div className="options-top-option">SERVIÇOS</div>
+                <Link className="options-top-option" to='#services' smooth>
+                    SERVIÇOS
+                </Link>
                 <div className="options-top-option">CONTATO</div>
                 <div className="options-top-option" id="instagram">
                     <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="" />
