@@ -1,14 +1,15 @@
-.services-main {
+.contact-main {
     width: 100vw;
     height: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2vw;
+    margin-bottom: 5vw;
     min-height: 40vw;
 }
 
-.services-text {
+.contact-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,12 +17,12 @@
     width: 100%;
 }
 
-.services-text p {
+.contact-text p {
     font-size: 30px;
     font-weight: bold;
 }
 
-.services-text hr {
+.contact-text hr {
     height: 5px;
     border-color: transparent;
     background-color: black;
@@ -31,18 +32,18 @@
     border-radius: 10px;
 }
 
-.services-posters {
+.contact-poster {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    height: 32vw;
+    justify-content: center;
+    height: 35vw;
     width: 70%;
 }
 
-.services-posters img {
-    width: 47%;
-    height: 30vw;
+.contact-poster img {
+    width: 50%;
+    height: 32vw;
     border-radius: 15px;
     box-shadow: 0 0 1em black;
 }

@@ -1,6 +1,7 @@
 .place-main {
     width: 100vw;
     color: white;
+    min-height: 33vw;
 }
 
 .place-details {

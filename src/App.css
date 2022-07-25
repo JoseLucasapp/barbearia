@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+html {
+  font-family: 'open-sans', sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100%;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
