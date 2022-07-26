@@ -27,14 +27,74 @@ html {
   src: url('../public/BERNIER™\ Regular.ttf');
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 900px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: red;
+    height: 6700px;
+  }
+
+}
+
+@media (max-width: 800px) and (min-width: 700px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: blue;
+    height: 5800px;
+  }
+
+}
+
+@media (max-width: 500px) and (min-width: 600px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: gold;
+    height: 6700px;
+  }
+
+}
+
+@media (max-width: 300px) and (min-width: 200px) {
   body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: silver;
-    height: 1800px;
+    height: 2250px;
+  }
+
+}
+
+@media (max-width: 374px) and (min-width: 300px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: silver;
+    height: 2800px;
+  }
+
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: green;
+    height: 3150px;
   }
 
 }

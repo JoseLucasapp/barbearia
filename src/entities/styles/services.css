@@ -49,3 +49,29 @@
     border-radius: 15px;
     box-shadow: 0 0 1em black;
 }
+
+@media (max-width: 1000px) {
+    .services-main {
+        height: 270vw;
+    }
+
+    .services-text {
+        height: 50vw;
+    }
+
+    .services-text hr {
+        width: 80%;
+    }
+
+    .services-posters {
+        flex-direction: column;
+        height: 220vw;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .services-posters img {
+        width: 90%;
+        height: 100vw;
+    }
+}
