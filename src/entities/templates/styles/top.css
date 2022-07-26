@@ -6,7 +6,7 @@
     text-align: center;
     align-items: center;
     margin-top: 1%;
-    color: white;
+    color: silver;
     min-height: 7vw;
     position: fixed;
 }
@@ -74,11 +74,12 @@
     cursor: pointer;
     height: 100%;
     text-decoration: none;
-    color: white;
+    color: silver;
 }
 
 .options-top-option:hover {
-    background-color: white;
+    transition: 1s;
+    background-color: silver;
     color: black;
 }
 
@@ -93,7 +94,7 @@
     cursor: pointer;
     height: 100%;
     text-decoration: none;
-    color: white;
+    color: silver;
     text-decoration: none;
 }
 

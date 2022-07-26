@@ -1,11 +1,10 @@
 .contact-main {
     width: 100vw;
-    height: 40vw;
+    height: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
     min-height: 40vw;
 }
 
@@ -17,9 +16,14 @@
     width: 100%;
 }
 
+.contact-text .contact-title {
+    font-size: 35px;
+    margin-bottom: 1vw;
+}
+
 .contact-text p {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3vw;
 }
 
 .contact-text hr {
@@ -27,8 +31,6 @@
     border-color: transparent;
     background-color: black;
     width: 50%;
-    margin-top: -1vw;
-    margin-bottom: 3vw;
     border-radius: 10px;
 }
 

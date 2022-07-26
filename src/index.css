@@ -1,15 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: silver;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 html {
@@ -27,4 +25,16 @@ html {
 @font-face {
   font-family: Bernier;
   src: url('../public/BERNIER™\ Regular.ttf');
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: silver;
+    height: 1800px;
+  }
+
 }

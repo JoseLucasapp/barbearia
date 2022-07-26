@@ -1,10 +1,9 @@
 .services-main {
     width: 100vw;
-    height: 40vw;
+    height: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2vw;
     min-height: 40vw;
 }
 
@@ -16,19 +15,23 @@
     width: 100%;
 }
 
-.services-text p {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .services-text hr {
     height: 5px;
     border-color: transparent;
     background-color: black;
     width: 50%;
-    margin-top: -1vw;
-    margin-bottom: 3vw;
     border-radius: 10px;
+}
+
+.services-text .services-title {
+    font-size: 35px;
+    margin-bottom: 1vw;
+    color: black;
+}
+
+.services-text p {
+    font-size: 20px;
+    margin-bottom: 3vw;
 }
 
 .services-posters {
